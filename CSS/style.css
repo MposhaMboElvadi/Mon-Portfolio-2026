@@ -1,3 +1,13 @@
-h1 {
-color:red;
+:root{
+    --violet-doux: #6C63FF;
+    --viloet-foncé: #534EDD;
+    --Orange-vif: #FFA726;
+    --gris-très-foncé: #333;
+    --gris-foncé: #666;
+    --gris-très-clair: #F8F8F8;
+    --gris-clair: #EEE;
 }
+
+h1{
+    color:var(--violet-doux);
+} 
