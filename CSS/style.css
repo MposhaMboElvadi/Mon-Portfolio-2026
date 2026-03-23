@@ -73,3 +73,48 @@ a.active{
 a.active::after {
     width: 100%;
 }
+.hero {
+    padding-top: 160px;
+    margin-bottom: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    text-align: center;
+}
+.hero img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 1000px;
+    border-color: var(--viloet-foncé);
+    border-style: outset;
+    border: 7px solid var(--violet-doux);
+}
+.hero p {
+    color: var(--gris-foncé);
+    font-size: 1.3rem;
+}
+.hero h1 {
+    font-size: 4rem;
+    color: var(--viloet-foncé);
+    margin-bottom: 1.2rem;
+}
+.hero a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    background-color: var(--violet-doux);
+    border-radius: 20px;
+    margin-top: 1.4rem;
+    padding: 10px 30px;
+    font-weight: 600;
+    transition: background-color 0.2s ease,transform 0.4s ease;
+    
+
+}
+.hero a:hover{
+    background-color: var(--viloet-foncé);
+    transform: translateY(-3px);
+}
