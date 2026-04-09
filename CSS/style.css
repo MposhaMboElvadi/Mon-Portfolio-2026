@@ -144,3 +144,227 @@ section h2::after{
     color: var(--gris-foncé);
     font-size: 1.2rem;
 }
+.compétences table{
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #FFF;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    overflow-x: hidden;
+}
+.compétences table th, .compétences table td{
+    padding: 15px;
+}
+.compétences table tbody th{
+    background-color: var(--violet-doux);
+    color: #FFF;
+    text-transform: uppercase;
+}
+.compétences table tbody td{
+    border-bottom: 1px solid var(--gris-clair);
+}
+.compétences table tbody tr:nth-child(even){
+    background-color: #FDFDFD;
+}
+.compétences table tbody tr{
+    transition: background-color 0.3s ease;
+}
+.compétences table tbody tr:hover{
+    background-color: #F0F0F0;
+}
+.compétences table thead th{
+    text-align: left;
+}
+footer {
+    margin-top: 3rem;
+    background-color: var(--violet-doux);
+    padding: 3rem 0;
+    text-align: center;
+}
+footer p {
+    color: white;
+    margin-bottom: 1.2rem;
+    margin: 0 10px;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+footer a:hover {
+    color: var(--Orange-vif);
+    transform: translateY(-3px);
+}
+.réalisations{
+    width: 800px;
+    margin: 6rem auto;
+    text-align: center;
+    color: var(--violet-doux);
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 15px;
+  color: #333;
+}
+
+.card p {
+  margin: 0 15px 10px;
+  color: #666;
+  font-size: 14px;
+}
+
+.tags {
+  margin: 0 15px 10px;
+}
+
+.tags span {
+  background: #eef;
+  color: #3366ff;
+  padding: 4px 8px;
+  margin-right: 5px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.actions a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.contact {
+    width: 800px;
+    margin: 6rem auto;
+    text-align: center;
+}
+
+.contact h1 {
+    color: var(--violet-doux);
+    position: relative;
+    display: inline-block;
+}
+
+.contact h1::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: var(--violet-doux);
+    margin: 10px auto 0;
+    border-radius: 10px;
+}
+
+.contact-container {
+    display: flex;
+    gap: 3rem;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 350px;
+}
+
+.contact form label {
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: 600;
+}
+
+.contact form input {
+    padding: 10px;
+    border: 1px solid var(--gris-clair);
+    border-radius: 8px;
+    outline: none;
+}
+
+.contact form button {
+    margin-top: 15px;
+    padding: 12px;
+    border: none;
+    background-color: var(--violet-doux);
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact form button:hover {
+    background-color: var(--viloet-foncé);
+}
+
+.contact-info {
+    max-width: 300px;
+    text-align: left;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    color: var(--gris-foncé);
+}
+
+.contact-info::after {
+    content: "Je suis actuellement à Lubumbashi";
+    display: block;
+    margin-top: 10px;
+    color: var(--gris-foncé);
+    font-size: 14px;
+}
+
+.socials a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: var(--violet-doux);
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.socials a:hover {
+    color: var(--Orange-vif);
+}
+
+.socials a:nth-child(1) i {
+    color: #25D366;
+}
+
+.socials a:nth-child(2) i {
+    color: #0088cc;
+}
