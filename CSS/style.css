@@ -368,3 +368,112 @@ body {
 .socials a:nth-child(2) i {
     color: #0088cc;
 }
+.passions h1{
+
+}
+/* Section passions */
+.passions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.passion-item {
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.passion-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.passion-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.passion-item h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.passion-item p {
+    font-size: 1rem;
+    color: #555;
+}
+.passions h1 {
+    color: var(--violet-doux);
+    position: relative;
+    text-align: center;
+}
+
+.passions h1::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: var(--violet-doux);
+    margin: 10px auto 0;
+    border-radius: 10px;
+}
+.divertissement h1 {
+    color: var(--violet-doux);
+    position: relative;
+    text-align: center;
+}
+
+.divertissement h1::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: var(--violet-doux);
+    margin: 10px auto 0;
+    border-radius: 10px;
+}
+
+/* Cartes divertissement */
+.divertissement {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.divertissement-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    width: 250px;
+}
+
+.divertissement-item:hover {
+    transform: translateY(-5px);
+}
+
+.divertissement-item i {
+    font-size: 40px;
+    color: var(--violet-doux);
+    margin-bottom: 1rem;
+}
+
+.divertissement-item h2 {
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.divertissement-item p {
+    color: #666;
+}
